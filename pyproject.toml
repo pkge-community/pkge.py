@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pkge-client"
+version = "0.1.0"
+authors = [
+  { name="Pkge Reverse Engineer", email="example@example.com" },
+]
+description = "An unofficial reversed-engineered client for the pkge.net API"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "httpx>=0.24.0",
+    "pycryptodome>=3.18.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Bluscream/pkge-client"
+"Bug Tracker" = "https://github.com/Bluscream/pkge-client/issues"
