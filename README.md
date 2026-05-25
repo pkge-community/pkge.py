@@ -1,4 +1,4 @@
-# pkge-client
+# [pkge-client](https://pypi.org/project/pkge-client/)
 
 Unofficial Python client for the pkge.net API.
 
